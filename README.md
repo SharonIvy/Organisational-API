@@ -33,7 +33,7 @@
  ### Installation process:
   * After cloning onto your local machine navigate to the folder you cloned into and open it with IntelliJ
   * Navigate into the ``` src/main/java/App.java ``` and run in IntelliJ IDEA
-  * Ensure you have imported the necessary dependencies in your build.gradle
+  * Ensure you have imported the necessary dependencies in your build.gradle file
   * On your browser and type ``` localhost:4567 ```
   (After this, you will probably get a 500 error since we do not have a database yet)
   * Navigate to the db directory and run `psql<create.sql` on your terminal
