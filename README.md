@@ -16,7 +16,7 @@
   - Java Development Kit(JDK)
   - Maven
   - Gradle
-  - An IDE - IntelliJ
+  - An IDE - IntelliJ IDEA
   To confirm, run the following commands on your Linux command line:
   ```
   $ java -version
