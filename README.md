@@ -37,19 +37,31 @@
   * On your browser and type ``` localhost:4567 ```
   (After this, you will probably get a 500 error since we do not have a database yet)
   * Navigate to the db directory and run `psql<create.sql` on your terminal
-  * Step 6
-Run your app with `-gradle run` command on your terminal.
+  
+## RUNNING THE APPLICATION
+  * Navigate to the project directory through your terminal and type `-gradle run`
+    Your code should look something like this where 'kendi' is your computer username
+
+      ```
+      kendi@kendi:~/Organisational-API$ gradle run
+
+      ```
  
 ## RUNNING TESTS 
- Create a test class for running tests in the application
- Below is a sample test:
- ```
- @Test
-    public void getAnimal_age() {
-        Animal newAnimal = Animal.setUpNewAnimal();
-        assertEquals("young",newAnimal.getAnimal_age());
-    }
- ```
+ Create a test class for running tests in the application.
+  This is a sample test that tests if the method adding animals to the database works
+
+  ```
+
+  @Test
+  public void update() {
+      News news = setUpNews();
+      String newsString = news.getNews();
+    newsDao.update(newsDao.getAll().get(0).getId(),"New news",3);
+      assertEquals("New news",newsDao.getAll().get(0).getNews());
+  }
+
+  ```
 
 ## KNOWN BUGS
  No bugs were detected during the development of this project
