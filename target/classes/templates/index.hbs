@@ -1,0 +1,21 @@
+{{#partial "content"}}
+            <div class="header">
+                <h2>Get the news as it breaks</h2>
+
+            </div>
+          {{#each news}}
+
+              <div class="news">
+<!--                  <p>25<span>th Jul</span></p>-->
+                  <img src="/img/news.gif" width="100%">
+                  <div>
+                    <p>{{news}}</p>
+                  </div>
+                  <p>{{#if department}}
+                      Department: {{department.departmentNam}}
+                  {{/if}}
+                      </p>
+                </div>
+          {{/each}}
+{{/partial}}
+{{> layouts.hbs}}

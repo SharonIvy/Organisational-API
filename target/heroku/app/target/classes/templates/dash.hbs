@@ -1,0 +1,34 @@
+{{#partial "content"}}
+    <h2>CREATE</h2>
+    <div class="form" id="news">
+        <h3>Create News</h3>
+        <form action="/new/news" method="POST">
+            <textarea type="text" name="news" placeholder="Enter the news" required></textarea>
+            <input type="number" name="departmentId" placeholder="Enter the department id(Optional)" required>
+            <input type="submit" value="Publish News">
+        </form>
+    </div>
+    <div class="form" id="user">
+        <h3>Create User</h3>
+        <form action="/new/user" method="POST">
+            <input type="text" name="userName" placeholder="User Name" required>
+            <input type="text" name="address" placeholder="Address">
+            <input type="text" name="phone" placeholder="Enter Phone">
+            <input type="text" name="email" placeholder="Enter Email">
+            <input type="number" name="departmentId" placeholder="Enter Department Id" >
+            <input type="text" name="position" placeholder="Enter Position" required>
+            <textarea type="text" name="roles" placeholder="Enter roles" required></textarea>
+            <input type="submit" value="Create User">
+        </form>
+    </div>
+    <div class="form" id="department">
+        <h3>Create Department</h3>
+        <form action="/new/department" method="POST">
+            <input type="text" name="name" placeholder="Enter Department Name" required>
+            <input type="text" name="description" placeholder="Enter Department Description" required>
+            <input type="number" name="employees" placeholder="Enter total employees in department">
+            <input type="submit" value="Create Department">
+        </form>
+    </div>
+{{/partial}}
+{{> layouts.hbs}}

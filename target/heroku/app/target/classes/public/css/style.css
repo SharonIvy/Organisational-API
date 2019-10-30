@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+html{
+	scroll-behavior: smooth;
+}
+.land-pg{
+  background: rgb(0, 38, 255) url('/img/bg.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+h2{
+	color: blue;
+}
+.sidenav{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0px;
+  background-image: linear-gradient(rgba(0, 81, 255, 0.884), rgba(0, 0, 0, 0.856), rgb(0, 0, 0));
+  text-align: left;
+  z-index: 3000;
+}
+.sidenav ul a{
+  display: block;
+  padding: 3px 5px;
+  cursor: pointer;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.01em solid rgba(255, 255, 255, 0.95);
+  margin: 2%;
+}
+.sidenav ul a:hover,
+.minimise:hover{
+  /* background: rgba(255, 255, 255, 0.411); */
+  letter-spacing: 2px;
+  border-bottom-width: 0.1em;
+  border-bottom-left-radius: 10px;
+}
+.sidenav p{
+  font-size: 1em;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+.max,
+.minimise{
+  text-align: right;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px white;
+}
+.minimise{
+	text-align: left;
+}
+
+.header{
+	width: 100%;
+	height: 45vh;
+	background: url('/img/news2.jpg');
+	margin-bottom: -100px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top right;
+}
+.header h2{
+	margin-top: 80px;
+	font-weight: bolder;
+	font-size: 5vw;
+	color: white;
+	text-shadow: 0 0 10px black;
+	font-family: 'DM Serif Text', serif;
+}
+.data-cont{
+  background: rgba(0, 0, 0, 0.623);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.news{
+  width: 300px;
+  margin: 20px 2%;
+  background: rgba(255, 255, 255, 0.096);
+  position: relative;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+news p{
+  font-size: 1em;
+  letter-spacing: 5px;
+}
+p span{
+  font-size: 0.5em;
+}
+.news h3{
+  margin-top: 30px;
+  position: relative;
+}
+
+.form{
+  width: 100%;
+  padding: 0 20px;
+  margin: 10px 0;
+  height: 100vh;
+  color: white;
+  padding-top: 20vh;
+}
+.form input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(0, 82, 158);
+  color: white;
+  width: 500px;
+  max-width: 100%;
+  padding: 10px;
+  margin-top: 2px;
+  animation: draw 1s linear 1;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  outline: none;
+}
+.form input:focus{
+  background: rgb(0, 0, 0);
+}
+@keyframes draw{
+  0%{
+    width: 0%
+  }
+  90%{
+    width: 500px;
+  }
+}
+.form textarea{
+  background: none;
+  width: 500px;
+  max-width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  color: white;
+  border-color: rgb(0, 82, 158);
+}
+.form input[type = submit]{
+  border: 1px solid blue;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 3px;
+  padding: 10px 30px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.form input[type = submit]:hover{
+  background: blue;
+}
