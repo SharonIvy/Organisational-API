@@ -64,7 +64,7 @@
   ```
 
 ## KNOWN BUGS
- No bugs were detected during the development of this projec
+ No bugs were detected during the development of this project
  #### :+1:
   
 ## LICENSING
