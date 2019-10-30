@@ -48,7 +48,7 @@
       ```
  
 ## RUNNING TESTS 
- Create a test class for running tests in the application.
+ Create a test class for running tests within the application.
   Below is a sample test;
 
   ```
