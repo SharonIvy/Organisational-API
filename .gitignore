@@ -49,3 +49,9 @@ settings.gradle
 ############
 .idea
 .idea/
+
+/.target/
+/.classpath
+/*project
+/.settings
+/*.springBeans
