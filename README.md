@@ -1,9 +1,9 @@
-# WILDLIFE TRACKER
+# ORGANISATIONAL API
   ### By:
    #### Sharon Ivy Kendi M.
 
 ## DESCRIPTION:
-  This is an application that allows wildlife rangers to track wildlife sightings in the area.
+  This is a rest REST API for querying and retrieving scoped news and information
   ### Built With:
     * Language - [Java](https://www.java.com/)
     * Intergated Development Environment - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
@@ -29,11 +29,13 @@
   * See pre-requisites
   * Fork this repository
   * Run the command;
-  'git clone https://github.com/SharonIvy/Wildlife-Tracker.git' to clone this repository locally
+  'git clone https://github.com/SharonIvy/Organisational-API.git' to clone this repository locally
  ### Installation process:
   * After cloning onto your local machine navigate to the folder you cloned into and open it with IntelliJ
   * Navigate into the ``` src/main/java/App.java ``` and run in IntelliJ IDEA
   * On your browser and type ``` localhost:4567 ```
+  (After this, you will probably get a 500 error since we do not have a database yet.)
+  *
  
 ## RUNNING TESTS 
  Create a test class for running tests in the application
