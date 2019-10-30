@@ -49,7 +49,7 @@
  
 ## RUNNING TESTS 
  Create a test class for running tests in the application.
-  This is a sample test that tests if the method adding animals to the database works
+  This is a sample test that tests if the method adding animals to the database works;
 
   ```
 
