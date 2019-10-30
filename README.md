@@ -40,7 +40,7 @@
   
 ## RUNNING THE APPLICATION
   * Navigate to the project directory through your terminal and type `-gradle run`
-    Your code should look something like this where 'kendi' is your computer username
+    Your code should look something like this(where 'kendi' is your computer username)
 
       ```
       kendi@kendi:~/Organisational-API$ gradle run
