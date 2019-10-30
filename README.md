@@ -69,7 +69,7 @@
   
 ## LICENSING
   **MIT License**
-  (for further details, please see the LICENSE file)
+  (for further details, please see the LICENSE fil)
   
 ## Support and Contact Details:
   For any contributions or troubleshooting, send an e-mail to;
