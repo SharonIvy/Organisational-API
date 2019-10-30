@@ -31,7 +31,7 @@
   * Run the command;
   'git clone https://github.com/SharonIvy/Organisational-API.git' to clone this repository locally
  ### Installation process:
-  * After cloning onto your local machine navigate to the folder you cloned into and open it with IntelliJ
+  * After cloning onto your local machine, navigate to the folder you cloned into and open it with IntelliJ
   * Navigate into the ``` src/main/java/App.java ``` and run in IntelliJ IDEA
   * Ensure you have imported the necessary dependencies in your build.gradle file
   * On your browser and type ``` localhost:4567 ```
